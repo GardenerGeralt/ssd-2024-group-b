@@ -19,3 +19,4 @@ A_out = np.pi*D * height
 
 Qsun = Alpha * S_sun * A_in
 Qalbedo = Alpha * S_sun * albedo * A_in
+Qearth = A_in*Epsilon*E_ir
