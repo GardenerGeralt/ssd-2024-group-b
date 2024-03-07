@@ -16,8 +16,9 @@ tb = 2*1e-3
 # Assem
 psi = 64*np.pi/180
 d = 40*1e-3
-E = 69*1e9              # Aluminium
-M = 64                   # Mass of telescope
+E = 69*1e9              # Aluminium - youngs modulus
+G = 26*1e9              # Aluminium - shear modulus
+M = 64                  # Mass of telescope
 D = 134.995*1e-3        # Diameter of dish
 
 
