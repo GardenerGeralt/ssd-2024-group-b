@@ -98,8 +98,8 @@ print(Cp)
 Kp = Cp.I
 
 R1 = np.matrix(np.identity(3))
-#D1 = lin_transform(0,0,-d/2,-d/2)           # is it really d/D?? & lokks like translation in Z direction rather than X why???
-D1 = lin_transform(-D/2, -D/2, 0, 0)         # this seems more right but not exact why???
+#D1 = lin_transform(0,0,-d/2,d/2)           # is it really d/D?? & lokks like translation in Z direction rather than X why???
+D1 = lin_transform(-D/2, D/2, 0, 0)         # this seems more right but not exact why???
 R2 = rot_transform(120*DTR, "Y")
 D2 = lin_transform(D/4, -D/4, -D*np.sqrt(3)/4, D*np.sqrt(3)/4)
 R3 = rot_transform(-120*DTR, "Y")
