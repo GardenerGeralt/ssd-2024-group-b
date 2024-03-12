@@ -45,5 +45,7 @@ def compliance_transform(R, D):
     TF[3:6,3:6] = R
     return TF
 
-#def matrix_inverse(M):
+def MOS(Y, Ycrit, FoS):
+    return (Ycrit/(FoS*Y))-1
+
 
