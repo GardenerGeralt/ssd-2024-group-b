@@ -24,7 +24,7 @@ tc = 2*1e-3
 psi = 64*np.pi/180
 d = 40*1e-3            # value in FEM
 #d = 20*1e-3             # value in paper
-#D = 134.995*1e-3        # Diameter of dish
+#D = 2*134.995*1e-3      # Diameter of dish
 D = 0.8                 # Diameter of dish (paper)
 
 #--------------- Material Properties ----------------#
