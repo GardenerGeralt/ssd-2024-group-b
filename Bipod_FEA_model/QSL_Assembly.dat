@@ -1,0 +1,442 @@
+1
+
+   Abaqus Learning Edition 2023                                  Date 13-Mar-2024   Time 20:50:45
+   
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+     END PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   ***********************************************************
+
+
+
+
+     OPTIONS BEING PROCESSED
+   ***************************
+
+
+  *Heading
+  *Node
+  *Element, type=B31
+  *Nset, nset=ASSEMBLY_BIPOD_MIDPOINT
+  *Nset, nset=ASSEMBLY_BIPOD_SURFACE
+  *Nset, nset=ASSEMBLY_BIPOD__PICKEDSET2
+  *Nset, nset=ASSEMBLY_BIPOD__PICKEDSET3
+  *Elset, elset=ASSEMBLY_BIPOD_SURFACE
+  *Elset, elset=ASSEMBLY_BIPOD__PICKEDSET2
+  *Elset, elset=ASSEMBLY_BIPOD__PICKEDSET3
+  *Elset, elset=ASSEMBLY_BIPOD__SURF-1_
+  *Node
+  *Element, type=B31
+  *Nset, nset=ASSEMBLY_BIPOD-RAD-2_MIDPOINT
+  *Nset, nset=ASSEMBLY_BIPOD-RAD-2_SURFACE
+  *Nset, nset=ASSEMBLY_BIPOD-RAD-2__PICKEDSET2
+  *Nset, nset=ASSEMBLY_BIPOD-RAD-2__PICKEDSET3
+  *Elset, elset=ASSEMBLY_BIPOD-RAD-2_SURFACE
+  *Elset, elset=ASSEMBLY_BIPOD-RAD-2__PICKEDSET2
+  *Elset, elset=ASSEMBLY_BIPOD-RAD-2__PICKEDSET3
+  *Elset, elset=ASSEMBLY_BIPOD-RAD-2__SURF-1_
+  *Node
+  *Element, type=B31
+  *Nset, nset=ASSEMBLY_BIPOD-RAD-3_MIDPOINT
+  *Nset, nset=ASSEMBLY_BIPOD-RAD-3_SURFACE
+  *Nset, nset=ASSEMBLY_BIPOD-RAD-3__PICKEDSET2
+  *Nset, nset=ASSEMBLY_BIPOD-RAD-3__PICKEDSET3
+  *Elset, elset=ASSEMBLY_BIPOD-RAD-3_SURFACE
+  *Elset, elset=ASSEMBLY_BIPOD-RAD-3__PICKEDSET2
+  *Elset, elset=ASSEMBLY_BIPOD-RAD-3__PICKEDSET3
+  *Elset, elset=ASSEMBLY_BIPOD-RAD-3__SURF-1_
+  *Node
+  *Element, type=B31
+  *Nset, nset=ASSEMBLY_STRUT-1__PICKEDSET2
+  *Elset, elset=ASSEMBLY_STRUT-1__PICKEDSET2
+  *Node
+  *Element, type=B31
+  *Nset, nset=ASSEMBLY_STRUT-1-RAD-2__PICKEDSET2
+  *Elset, elset=ASSEMBLY_STRUT-1-RAD-2__PICKEDSET2
+  *Node
+  *Element, type=B31
+  *Nset, nset=ASSEMBLY_STRUT-1-RAD-3__PICKEDSET2
+  *Elset, elset=ASSEMBLY_STRUT-1-RAD-3__PICKEDSET2
+  *Node
+  *Element, type=MASS
+  *Nset, nset=ASSEMBLY_BP1_STRT1_ATTCHMNT_NODES
+  *Nset, nset=ASSEMBLY_BP2_STRT2_ATTCHMNT_NODES
+  *Nset, nset=ASSEMBLY_BP3_STRT3_ATTCHMNT_NODES
+  *Nset, nset=ASSEMBLY_BP_S_ATTCHMNT_NODES
+  *Nset, nset=ASSEMBLY_M1_BP_ATTCHMNT_NODES
+  *Nset, nset=ASSEMBLY__PICKEDSET46
+  *Nset, nset=ASSEMBLY__PICKEDSET47
+  *Nset, nset=ASSEMBLY__PICKEDSET52
+  *Nset, nset=ASSEMBLY__PICKEDSET53
+  *Nset, nset=ASSEMBLY__PICKEDSET54
+  *Nset, nset=ASSEMBLY__PICKEDSET55
+  *Nset, nset=ASSEMBLY__PICKEDSET60
+  *Nset, nset=ASSEMBLY__PICKEDSET65
+  *Nset, nset=ASSEMBLY__PICKEDSET66
+  *Nset, nset=ASSEMBLY__PICKEDSET67
+  *Nset, nset=ASSEMBLY__PICKEDSET68
+  *Nset, nset=ASSEMBLY__PICKEDSET69
+  *Elset, elset=ASSEMBLY__PICKEDSET32_M2_
+  *Elset, elset=ASSEMBLY__PICKEDSET33_M1_
+  *Elset, elset=ASSEMBLY__PICKEDSET34_S_
+  *Elset, elset=ASSEMBLY__PICKEDSET66
+  *material, name=MY_ALUMINIUM
+  *density
+  *elastic
+  *material, name=MY_CFRP
+  *density
+  *elastic
+  *mass, elset=ASSEMBLY__PICKEDSET33_M1_
+  *mass, elset=ASSEMBLY__PICKEDSET32_M2_
+  *mass, elset=ASSEMBLY__PICKEDSET34_S_
+  *orientation, name=ASSEMBLY_BIPOD_ORI-1
+  *orientation, name=ASSEMBLY_BIPOD-RAD-2_ORI-1
+  *orientation, name=ASSEMBLY_BIPOD-RAD-3_ORI-1
+  *orientation, name=ASSEMBLY_STRUT-1_ORI-1
+  *orientation, name=ASSEMBLY_STRUT-1-RAD-2_ORI-1
+  *orientation, name=ASSEMBLY_STRUT-1-RAD-3_ORI-1
+  *beamsection, elset=ASSEMBLY_BIPOD__PICKEDSET2, temperature=GRADIENTS, material=MY_ALUMINIUM, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BIPOD__PICKEDSET3, temperature=GRADIENTS, material=MY_ALUMINIUM, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BIPOD-RAD-2__PICKEDSET2, temperature=GRADIENTS, material=MY_ALUMINIUM, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BIPOD-RAD-2__PICKEDSET3, temperature=GRADIENTS, material=MY_ALUMINIUM, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BIPOD-RAD-3__PICKEDSET2, temperature=GRADIENTS, material=MY_ALUMINIUM, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BIPOD-RAD-3__PICKEDSET3, temperature=GRADIENTS, material=MY_ALUMINIUM, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_STRUT-1__PICKEDSET2, temperature=GRADIENTS, material=MY_CFRP, section=CIRCULAR
+  *beamsection, elset=ASSEMBLY_STRUT-1-RAD-2__PICKEDSET2, temperature=GRADIENTS, material=MY_CFRP, section=CIRCULAR
+  *beamsection, elset=ASSEMBLY_STRUT-1-RAD-3__PICKEDSET2, temperature=GRADIENTS, material=MY_CFRP, section=CIRCULAR
+  *mass, elset=ASSEMBLY__PICKEDSET33_M1_
+  *mass, elset=ASSEMBLY__PICKEDSET32_M2_
+  *mass, elset=ASSEMBLY__PICKEDSET34_S_
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET60, tienset=ASSEMBLY_M1_BP_ATTCHMNT_NODES
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET65, tienset=ASSEMBLY_BP_S_ATTCHMNT_NODES
+  *tie, name=ASSEMBLY_BP_STRT1, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT2, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT3, adjust=YES
+  *tie, name=ASSEMBLY_M2_STRT, adjust=YES
+  *surface, type=ELEMENT, name=ASSEMBLY_BIPOD_SURF-1
+  *surface, type=ELEMENT, name=ASSEMBLY_BIPOD-RAD-2_SURF-1
+  *surface, type=ELEMENT, name=ASSEMBLY_BIPOD-RAD-3_SURF-1
+  *surface, type=NODE, name=ASSEMBLY_BP1_STRT1_ATTCHMNT_NODES_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET54_CNS_
+  *surface, type=NODE, name=ASSEMBLY_BP2_STRT2_ATTCHMNT_NODES_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET53_CNS_
+  *surface, type=NODE, name=ASSEMBLY_BP3_STRT3_ATTCHMNT_NODES_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET55_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET46_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET47_CNS_
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET60, tienset=ASSEMBLY_M1_BP_ATTCHMNT_NODES
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET65, tienset=ASSEMBLY_BP_S_ATTCHMNT_NODES
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET60, tienset=ASSEMBLY_M1_BP_ATTCHMNT_NODES
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET65, tienset=ASSEMBLY_BP_S_ATTCHMNT_NODES
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET60, tienset=ASSEMBLY_M1_BP_ATTCHMNT_NODES
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET65, tienset=ASSEMBLY_BP_S_ATTCHMNT_NODES
+  *tie, name=ASSEMBLY_BP_STRT1, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT2, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT3, adjust=YES
+  *tie, name=ASSEMBLY_M2_STRT, adjust=YES
+  *surface, type=ELEMENT, name=ASSEMBLY_BIPOD_SURF-1
+  *surface, type=ELEMENT, name=ASSEMBLY_BIPOD-RAD-2_SURF-1
+  *surface, type=ELEMENT, name=ASSEMBLY_BIPOD-RAD-3_SURF-1
+  *surface, type=NODE, name=ASSEMBLY_BP1_STRT1_ATTCHMNT_NODES_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET54_CNS_
+  *surface, type=NODE, name=ASSEMBLY_BP2_STRT2_ATTCHMNT_NODES_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET53_CNS_
+  *surface, type=NODE, name=ASSEMBLY_BP3_STRT3_ATTCHMNT_NODES_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET55_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET46_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET47_CNS_
+  *surface, type=ELEMENT, name=ASSEMBLY_BIPOD_SURF-1
+  *surface, type=ELEMENT, name=ASSEMBLY_BIPOD-RAD-2_SURF-1
+  *surface, type=ELEMENT, name=ASSEMBLY_BIPOD-RAD-3_SURF-1
+  *surface, type=NODE, name=ASSEMBLY_BP1_STRT1_ATTCHMNT_NODES_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET54_CNS_
+  *surface, type=NODE, name=ASSEMBLY_BP2_STRT2_ATTCHMNT_NODES_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET53_CNS_
+  *surface, type=NODE, name=ASSEMBLY_BP3_STRT3_ATTCHMNT_NODES_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET55_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET46_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET47_CNS_
+  *tie, name=ASSEMBLY_BP_STRT1, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT2, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT3, adjust=YES
+  *tie, name=ASSEMBLY_M2_STRT, adjust=YES
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET60, tienset=ASSEMBLY_M1_BP_ATTCHMNT_NODES
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET65, tienset=ASSEMBLY_BP_S_ATTCHMNT_NODES
+  *tie, name=ASSEMBLY_BP_STRT1, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT2, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT3, adjust=YES
+  *tie, name=ASSEMBLY_M2_STRT, adjust=YES
+
+ ***NOTE: CONTACT AND CONSTRAINT FORMULATIONS IN ABAQUS/STANDARD DO NOT ACCOUNT 
+          FOR THE POSITION OF THE BEAM CROSS SECTION RELATIVE TO THE BEAM AXIS.
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET60, tienset=ASSEMBLY_M1_BP_ATTCHMNT_NODES
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET65, tienset=ASSEMBLY_BP_S_ATTCHMNT_NODES
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET60, tienset=ASSEMBLY_M1_BP_ATTCHMNT_NODES
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET65, tienset=ASSEMBLY_BP_S_ATTCHMNT_NODES
+  *boundary
+  *boundary
+  *tie, name=ASSEMBLY_BP_STRT1, adjust=YES
+
+ ***WARNING: SECONDARY SURFACE ASSEMBLY__PICKEDSET54_CNS_ IS A NODE-BASED 
+             SURFACE USED WITH SURFACE TO SURFACE APPROACH.  IN ORDER TO OBTAIN 
+             IMPROVED STRESS ACCURACY WITH THIS APPROACH, AN ELEMENT-BASED 
+             SURFACE SHOULD BE USED INSTEAD.
+
+
+  SECONDARY: ASSEMBLY__PICKEDSET54_CNS_                                                      
+  MAIN :     ASSEMBLY_BP1_STRT1_ATTCHMNT_NODES_CNS_                                          
+              DISTANCE
+   NODE       ADJUSTED    REMARKS/WARNINGS
+
+       103   4.99969E-03  ADJUSTED TO (-4.99969E-03, 0.10177    ,-0.13495    ).
+
+
+
+  *tie, name=ASSEMBLY_BP_STRT2, adjust=YES
+
+ ***WARNING: SECONDARY SURFACE ASSEMBLY__PICKEDSET53_CNS_ IS A NODE-BASED 
+             SURFACE USED WITH SURFACE TO SURFACE APPROACH.  IN ORDER TO OBTAIN 
+             IMPROVED STRESS ACCURACY WITH THIS APPROACH, AN ELEMENT-BASED 
+             SURFACE SHOULD BE USED INSTEAD.
+
+ ***WARNING: 1 nodes have been adjusted. The nodes have been identified in node 
+             set WarnNodeAdjust.
+
+
+  SECONDARY: ASSEMBLY__PICKEDSET53_CNS_                                                      
+  MAIN :     ASSEMBLY_BP2_STRT2_ATTCHMNT_NODES_CNS_                                          
+              DISTANCE
+   NODE       ADJUSTED    REMARKS/WARNINGS
+
+       126   4.99969E-03  ADJUSTED TO (-0.11437    , 0.10177    , 7.18074E-02).
+
+
+
+  *tie, name=ASSEMBLY_BP_STRT3, adjust=YES
+
+ ***WARNING: SECONDARY SURFACE ASSEMBLY__PICKEDSET55_CNS_ IS A NODE-BASED 
+             SURFACE USED WITH SURFACE TO SURFACE APPROACH.  IN ORDER TO OBTAIN 
+             IMPROVED STRESS ACCURACY WITH THIS APPROACH, AN ELEMENT-BASED 
+             SURFACE SHOULD BE USED INSTEAD.
+
+ ***WARNING: 1 nodes have been adjusted. The nodes have been identified in node 
+             set WarnNodeAdjust.
+
+
+  SECONDARY: ASSEMBLY__PICKEDSET55_CNS_                                                      
+  MAIN :     ASSEMBLY_BP3_STRT3_ATTCHMNT_NODES_CNS_                                          
+              DISTANCE
+   NODE       ADJUSTED    REMARKS/WARNINGS
+
+       149   4.99969E-03  ADJUSTED TO ( 0.11937    , 0.10177    , 6.31476E-02).
+
+
+
+  *tie, name=ASSEMBLY_M2_STRT, adjust=YES
+
+ ***WARNING: SECONDARY SURFACE ASSEMBLY__PICKEDSET47_CNS_ IS A NODE-BASED 
+             SURFACE USED WITH SURFACE TO SURFACE APPROACH.  IN ORDER TO OBTAIN 
+             IMPROVED STRESS ACCURACY WITH THIS APPROACH, AN ELEMENT-BASED 
+             SURFACE SHOULD BE USED INSTEAD.
+
+ ***WARNING: 1 nodes have been adjusted. The nodes have been identified in node 
+             set WarnNodeAdjust.
+
+ ***WARNING: FOR *TIE PAIR 
+             (ASSEMBLY__PICKEDSET47_CNS_-ASSEMBLY__PICKEDSET46_CNS_), 
+             ADJUSTMENT WAS SPECIFIED BUT NO NODE WAS ADJUSTED MORE THAN THE 
+             ADJUSTMENT DISTANCE = 2.22000E-16.
+  *tie, name=ASSEMBLY_BP_STRT1, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT2, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT3, adjust=YES
+  *tie, name=ASSEMBLY_M2_STRT, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT1, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT2, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT3, adjust=YES
+  *tie, name=ASSEMBLY_M2_STRT, adjust=YES
+
+ ***WARNING: SECONDARY NODE 23 INSTANCE STRUT-1 WILL NOT BE TIED TO THE MAIN 
+             SURFACE ASSEMBLY__PICKEDSET46_CNS_. THE DISTANCE FROM THE MAIN 
+             SURFACE IS GREATER THAN THE POSITION TOLERANCE VALUE.
+
+ ***WARNING: SECONDARY NODE 23 INSTANCE STRUT-1-RAD-2 WILL NOT BE TIED TO THE 
+             MAIN SURFACE ASSEMBLY__PICKEDSET46_CNS_. THE DISTANCE FROM THE 
+             MAIN SURFACE IS GREATER THAN THE POSITION TOLERANCE VALUE.
+
+ ***WARNING: SECONDARY NODE 23 INSTANCE STRUT-1-RAD-3 WILL NOT BE TIED TO THE 
+             MAIN SURFACE ASSEMBLY__PICKEDSET46_CNS_. THE DISTANCE FROM THE 
+             MAIN SURFACE IS GREATER THAN THE POSITION TOLERANCE VALUE.
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET60, tienset=ASSEMBLY_M1_BP_ATTCHMNT_NODES
+  *rigidbody, refnode=ASSEMBLY__PICKEDSET65, tienset=ASSEMBLY_BP_S_ATTCHMNT_NODES
+  *surface, type=ELEMENT, name=ASSEMBLY_BIPOD_SURF-1
+  *surface, type=ELEMENT, name=ASSEMBLY_BIPOD-RAD-2_SURF-1
+  *surface, type=ELEMENT, name=ASSEMBLY_BIPOD-RAD-3_SURF-1
+  *surface, type=NODE, name=ASSEMBLY_BP1_STRT1_ATTCHMNT_NODES_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET54_CNS_
+  *surface, type=NODE, name=ASSEMBLY_BP2_STRT2_ATTCHMNT_NODES_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET53_CNS_
+  *surface, type=NODE, name=ASSEMBLY_BP3_STRT3_ATTCHMNT_NODES_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET55_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET46_CNS_
+  *surface, type=NODE, name=ASSEMBLY__PICKEDSET47_CNS_
+  *tie, name=ASSEMBLY_BP_STRT1, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT2, adjust=YES
+  *tie, name=ASSEMBLY_BP_STRT3, adjust=YES
+  *tie, name=ASSEMBLY_M2_STRT, adjust=YES
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+
+ ***WARNING: 3 nodes are either missing intersection with their respective main 
+             surface or are outside the adjust zone. The nodes have been 
+             identified in node set WarnNodeMissMainIntersect.
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *Step, name=QSL, nlgeom=NO
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *Step, name=QSL, nlgeom=NO
+  *Step, name=QSL, nlgeom=NO
+  *static
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *endstep
+  *boundary
+  *Step, name=QSL, nlgeom=NO
+  *static
+  *cload
+  *cload
+  *cload
+  *endstep
+
+ ***WARNING: For 6 beam elements either the average curvature about the local 
+             1-direction differs by more than 0.1 degrees per unit length as 
+             compared to the default curvature or the approximate integrated 
+             curvature for the entire beam differs by more than 5 degrees as 
+             compared to the approximate integrated default curvature. This may 
+             be due to a user-specified normal or due to the nodal averaging 
+             routine used by Abaqus. This difference may cause unexpected 
+             behavior of the beam and you may want to verify that the beam 
+             normals are correct for your problem. The elements have been 
+             identified in element set WarnBeamCurvature1.
+
+ ***WARNING: For 3 beam elements either the average curvature about the beam 
+             tangent differs by more than 0.1 degrees per unit length as 
+             compared to the default curvature or the approximate integrated 
+             curvature for the entire beam differs by more than 5 degrees as 
+             compared to the approximate integrated default curvature. This may 
+             be due to a user-specified normal or due to the nodal averaging 
+             routine used by Abaqus. This difference may cause unexpected 
+             behavior of the beam and you may want to verify that the beam 
+             normals are correct for your problem. The elements have been 
+             identified in element set WarnBeamTwist.
+
+
+
+                            P R O B L E M   S I Z E
+
+
+          NUMBER OF ELEMENTS IS                                   165
+          NUMBER OF NODES IS                                      495
+          NUMBER OF NODES DEFINED BY THE USER                     171
+          NUMBER OF INTERNAL NODES GENERATED BY THE PROGRAM       324
+          TOTAL NUMBER OF VARIABLES IN THE MODEL                 1023
+          (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
+           VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =     0.20    
+       SYSTEM TIME (SEC)    =     0.10    
+       TOTAL CPU TIME (SEC) =     0.30    
+       WALLCLOCK TIME (SEC) =            1
+1
+
+   Abaqus Learning Edition 2023                                  Date 13-Mar-2024   Time 20:50:47
+   
+
+                                                                                               STEP    1  INCREMENT    1
+                                                                                          TIME COMPLETED IN THIS STEP   0.00    
+
+
+                        S T E P       1     S T A T I C   A N A L Y S I S
+
+
+                                                                                          
+
+     AUTOMATIC TIME CONTROL WITH -
+          A SUGGESTED INITIAL TIME INCREMENT OF                 1.00    
+          AND A TOTAL TIME PERIOD OF                            1.00    
+          THE MINIMUM TIME INCREMENT ALLOWED IS                1.000E-05
+          THE MAXIMUM TIME INCREMENT ALLOWED IS                 1.00    
+
+     LINEAR EQUATION SOLVER TYPE         DIRECT SPARSE
+  
+                   M E M O R Y   E S T I M A T E
+  
+ PROCESS      FLOATING PT       MINIMUM MEMORY        MEMORY TO
+              OPERATIONS           REQUIRED          MINIMIZE I/O
+             PER ITERATION           (MB)               (MB)
+  
+     1          2.09E+05               17                 24
+  
+ NOTE:
+      (1) SINCE ABAQUS DOES NOT PRE-ALLOCATE MEMORY AND ONLY ALLOCATES MEMORY AS NEEDED DURING THE ANALYSIS,
+          THE MEMORY REQUIREMENT PRINTED HERE CAN ONLY BE VIEWED AS A GENERAL GUIDELINE BASED ON THE BEST
+          KNOWLEDGE AVAILABLE AT THE BEGINNING OF A STEP BEFORE THE SOLUTION PROCESS HAS BEGUN.
+      (2) THE ESTIMATE IS NORMALLY UPDATED AT THE BEGINNING OF EVERY STEP. IT IS THE MAXIMUM VALUE OF THE
+          ESTIMATE FROM THE CURRENT STEP TO THE LAST STEP OF THE ANALYSIS, WITH UNSYMMETRIC SOLUTION TAKEN
+          INTO ACCOUNT IF APPLICABLE. 
+      (3) SINCE THE ESTIMATE IS BASED ON THE ACTIVE DEGREES OF FREEDOM IN THE FIRST ITERATION OF THE 
+          CURRENT STEP, THE MEMORY ESTIMATE MIGHT BE SIGNIFICANTLY DIFFERENT THAN ACTUAL USAGE FOR 
+          PROBLEMS WITH SUBSTANTIAL CHANGES IN ACTIVE DEGREES OF FREEDOM BETWEEN STEPS (OR EVEN WITHIN
+          THE SAME STEP). EXAMPLES ARE: PROBLEMS WITH SIGNIFICANT CONTACT CHANGES, PROBLEMS WITH MODEL
+          CHANGE, PROBLEMS WITH BOTH STATIC STEP AND STEADY STATE DYNAMIC PROCEDURES WHERE ACOUSTIC 
+          ELEMENTS WILL ONLY BE ACTIVATED IN THE STEADY STATE DYNAMIC STEPS.
+      (4) FOR MULTI-PROCESS EXECUTION, THE ESTIMATED VALUE OF FLOATING POINT OPERATIONS FOR EACH PROCESS
+          IS BASED ON AN INITIAL SCHEDULING OF OPERATIONS AND MIGHT NOT REFLECT THE ACTUAL FLOATING 
+          POINT OPERATIONS COMPLETED ON EACH PROCESS. OPERATIONS ARE DYNAMICALLY BALANCED DURING EXECUTION, 
+          SO THE ACTUAL BALANCE OF OPERATIONS BETWEEN PROCESSES IS EXPECTED TO BE BETTER THAN THE ESTIMATE
+          PRINTED HERE.
+      (5) THE UPPER LIMIT OF MEMORY THAT CAN BE ALLOCATED BY ABAQUS WILL IN GENERAL DEPEND ON THE VALUE OF
+          THE "MEMORY" PARAMETER AND THE AMOUNT OF PHYSICAL MEMORY AVAILABLE ON THE MACHINE. PLEASE SEE
+          THE "ABAQUS ANALYSIS USER'S MANUAL" FOR MORE DETAILS. THE ACTUAL USAGE OF MEMORY AND OF DISK
+          SPACE FOR SCRATCH DATA WILL DEPEND ON THIS UPPER LIMIT AS WELL AS THE MEMORY REQUIRED TO MINIMIZE
+          I/O. IF THE MEMORY UPPER LIMIT IS GREATER THAN THE MEMORY REQUIRED TO MINIMIZE I/O, THEN THE ACTUAL
+          MEMORY USAGE WILL BE CLOSE TO THE ESTIMATED "MEMORY TO MINIMIZE I/O" VALUE, AND THE SCRATCH DISK
+          USAGE WILL BE CLOSE-TO-ZERO; OTHERWISE, THE ACTUAL MEMORY USED WILL BE CLOSE TO THE PREVIOUSLY
+          MENTIONED MEMORY LIMIT, AND THE SCRATCH DISK USAGE WILL BE ROUGHLY PROPORTIONAL TO THE DIFFERENCE
+          BETWEEN THE ESTIMATED "MEMORY TO MINIMIZE I/O" AND THE MEMORY UPPER LIMIT. HOWEVER ACCURATE
+          ESTIMATE OF THE SCRATCH DISK SPACE IS NOT POSSIBLE.
+      (6) USING "*RESTART, WRITE" CAN GENERATE A LARGE AMOUNT OF DATA WRITTEN IN THE WORK DIRECTORY.
+
+
+          THE ANALYSIS IS ENDED BECAUSE OF THE PROBLEMS ENCOUNTERED
+          LOOK AT THE MSG FILE FOR THE CAUSE OF THE TERMINATION
+
+
+
+                              ANALYSIS IS ENDED
+                              WITH      1 ERROR MESSAGES ON THE MSG FILE
+                              AND      14 WARNING MESSAGES ON THE DAT FILE
+                              AND      41 WARNING MESSAGES ON THE MSG FILE
+                                       20 WARNINGS ARE FOR NUMERICAL PROBLEMS
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =     0.30    
+       SYSTEM TIME (SEC)    =     0.10    
+       TOTAL CPU TIME (SEC) =     0.40    
+       WALLCLOCK TIME (SEC) =            2
