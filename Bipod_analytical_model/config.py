@@ -24,14 +24,15 @@ tc = 2*1e-3
 psi = 64*np.pi/180
 d = 40*1e-3            # value in FEM
 #d = 20*1e-3             # value in paper
-#D = 2*134.995*1e-3      # Diameter of dish
-D = 0.8                 # Diameter of dish (paper)
+D = 2*134.995*1e-3      # Diameter of dish
+#D = 0.8                 # Diameter of dish (paper)
 
 #--------------- Material Properties ----------------#
 
 E = 69*1e9              # Aluminium - youngs modulus
 G = 26*1e9              # Aluminium - shear modulus
-M = 46                  # Mass of telescope
+#M = 46                  # Mass of telescope - paper
+M = 5.1
 FoS = 1.5
 sigmaY = 240*1e6
 

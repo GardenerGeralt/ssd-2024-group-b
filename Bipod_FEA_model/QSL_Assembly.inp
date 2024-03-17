@@ -203,10 +203,6 @@ _Surf-1_,
 **  
 *Node
       1,           0.,  0.523270011,           0.
-*Node
-      2,           0.,  0.210979998,           0.
-*Node
-      3,           0., 0.0500000007,           0.
 *Nset, nset=BP1_strt1_attchmnt_nodes, instance=Bipod, generate
  20,  23,   1
 *Nset, nset=BP2_strt2_attchmnt_nodes, instance=Bipod-rad-2, generate
@@ -245,40 +241,6 @@ _Surf-1_,
  1,
 *Nset, nset=_PickedSet55, internal, instance=Strut-1-rad-3
  1,
-*Nset, nset=_PickedSet60, internal
- 2,
-*Nset, nset=_PickedSet65, internal
- 3,
-*Nset, nset=_PickedSet66, internal, instance=Bipod, generate
-  1,  33,   1
-*Nset, nset=_PickedSet66, internal, instance=Strut-1-rad-2, generate
-  1,  23,   1
-*Nset, nset=_PickedSet66, internal, instance=Strut-1-rad-3, generate
-  1,  23,   1
-*Nset, nset=_PickedSet66, internal, instance=Bipod-rad-2, generate
-  1,  33,   1
-*Nset, nset=_PickedSet66, internal, instance=Bipod-rad-3, generate
-  1,  33,   1
-*Nset, nset=_PickedSet66, internal, instance=Strut-1, generate
-  1,  23,   1
-*Elset, elset=_PickedSet66, internal, instance=Bipod, generate
-  1,  32,   1
-*Elset, elset=_PickedSet66, internal, instance=Strut-1-rad-2, generate
-  1,  22,   1
-*Elset, elset=_PickedSet66, internal, instance=Strut-1-rad-3, generate
-  1,  22,   1
-*Elset, elset=_PickedSet66, internal, instance=Bipod-rad-2, generate
-  1,  32,   1
-*Elset, elset=_PickedSet66, internal, instance=Bipod-rad-3, generate
-  1,  32,   1
-*Elset, elset=_PickedSet66, internal, instance=Strut-1, generate
-  1,  22,   1
-*Nset, nset=_PickedSet67, internal
- 1,
-*Nset, nset=_PickedSet68, internal
- 2,
-*Nset, nset=_PickedSet69, internal
- 3,
 *Surface, type=NODE, name=BP1_strt1_attchmnt_nodes_CNS_, internal
 BP1_strt1_attchmnt_nodes, 1.
 *Surface, type=NODE, name=_PickedSet54_CNS_, internal
@@ -304,23 +266,17 @@ _PickedSet53_CNS_, BP2_strt2_attchmnt_nodes_CNS_
 ** Constraint: BP_strt3
 *Tie, name=BP_strt3, adjust=yes
 _PickedSet55_CNS_, BP3_strt3_attchmnt_nodes_CNS_
-** Constraint: M1_BP
-*Rigid Body, ref node=_PickedSet60, tie nset=M1_BP_attchmnt_nodes
 ** Constraint: M2_Strt
 *Tie, name=M2_Strt, adjust=yes
 _PickedSet47_CNS_, _PickedSet46_CNS_
-** Constraint: S_BP
-*Rigid Body, ref node=_PickedSet65, tie nset=BP_S_attchmnt_nodes
 *Element, type=MASS, elset=_PickedSet33_M1_
-1, 2
 *Mass, elset=_PickedSet33_M1_
 4.5, 
 *Element, type=MASS, elset=_PickedSet32_M2_
-2, 1
+1, 1
 *Mass, elset=_PickedSet32_M2_
 0.6, 
 *Element, type=MASS, elset=_PickedSet34_S_
-3, 3
 *Mass, elset=_PickedSet34_S_
 1.1, 
 *End Assembly
@@ -359,16 +315,9 @@ _PickedSet52, ENCASTRE
 ** 
 ** LOADS
 ** 
-** Name: M1_force   Type: Concentrated force
-*Cload
-_PickedSet68, 2, -1765.8
-_PickedSet68, 3, 0.
-** Name: M2_force   Type: Concentrated force
-*Cload
-_PickedSet67, 2, -235.44
-** Name: S_force   Type: Concentrated force
-*Cload
-_PickedSet69, 2, -431.64
+** Name: Grav40g   Type: Gravity
+*Dload
+, GRAV, 40., 0., -1., 0.
 ** 
 ** OUTPUT REQUESTS
 ** 
