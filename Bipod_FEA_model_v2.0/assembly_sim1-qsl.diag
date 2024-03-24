@@ -1,0 +1,69 @@
+
+*** 20:23:43 *** 
+Starting Nastran Exporter
+
+*** 20:23:43 *** 
+Writing file 
+D:\Temporary\Delft\Post_admin\Class\Spacecraft_Struct_Design\CAD\1D_Assembly\assembly_sim1-qsl.dat
+ 
+*** 20:23:43 *** 
+Writing SIMCENTER NASTRAN 2020.1 compatible deck
+
+*** 20:23:43 *** 
+Writing Nastran System section
+
+*** 20:23:43 *** 
+Writing File Management section
+
+*** 20:23:43 *** 
+Writing Executive Control section
+
+*** 20:23:43 *** 
+Writing Case Control section
+
+*** 20:23:43 *** 
+Writing Bulk Data section
+
+*** 20:23:43 *** 
+Writing Nodes
+
+*** 20:23:43 *** 
+Writing Elements
+
+*** 20:23:43 *** 
+Writing Physical Properties
+
+*** 20:23:43 *** 
+Writing Materials
+
+*** 20:23:43 *** 
+Writing Degree-of-Freedom Sets
+
+*** 20:23:45 *** 
+Writing Loads and Constraints
+
+*** 20:23:45 *** 
+Writing Coordinate Systems
+
+*** 20:23:45 *** 
+Summary of Bulk Data cards written
+
++----------+----------+
+|   NAME   |  NUMBER  |
++----------+----------+
+| CBEAM    | 270      |
+| CONM2    | 2        |
+| GRAV     | 1        |
+| GRID     | 276      |
+| MAT1     | 2        |
+| MATT1    | 1        |
+| PARAM    | 7        |
+| PBEAML   | 3        |
+| RBE2     | 5        |
+| SPC      | 6        |
+| TABLEM1  | 3        |
++----------+----------+
+
+*** 20:23:45 *** 
+Nastran Deck Successfully Written
+
