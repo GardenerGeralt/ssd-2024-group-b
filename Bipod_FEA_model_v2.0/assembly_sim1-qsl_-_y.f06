@@ -88,7 +88,7 @@
  for global, or multi-user control, and in a local file for local control.
  Individual jobs can be controlled by setting news to yes or no on the command
  line.
-1                                                                             MARCH  23, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     1
+1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     1
                                                                                                                                     
 0        N A S T R A N    F I L E    A N D    S Y S T E M    P A R A M E T E R    E C H O                                           
 0                                                                                                                                   
@@ -111,8 +111,8 @@
      $*        SOLUTION TYPE: SOL 101 LINEAR STATICS - GLOBAL CONSTRAINTS            
      $*                                                                              
      $*    SOLVER INPUT FILE: ASSEMBLY_SIM1-QSL_-_Y.DAT                              
-     $*        CREATION DATE: 23-MAR-2024                                            
-     $*        CREATION TIME: 12:47:53                                               
+     $*        CREATION DATE: 25-MAR-2024                                            
+     $*        CREATION TIME: 16:59:30                                               
      $*             HOSTNAME: LAPTOP-4ODISQVG                                        
      $*      NASTRAN LICENSE: DESKTOP BUNDLE                                         
      $*                                                                              
@@ -143,7 +143,7 @@
      $*                                                                              
      $*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$                                           
      $*                                                                              
-1                                                                             MARCH  23, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     2
+1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     2
                                                                                                                                     
 0        N A S T R A N    E X E C U T I V E    C O N T R O L    E C H O                                                             
 0                                                                                                                                   
@@ -152,7 +152,7 @@
      ID,NASTRAN,ASSEMBLY_SIM1-QSL_-_Y                                                        
      SOL 101                                                                                 
      CEND                                                                                    
-1                                                                             MARCH  23, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     3
+1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     3
                                                                                                                                     
 0                                                                                                                                   
 0                                        C A S E    C O N T R O L    E C H O                                                        
@@ -185,8 +185,8 @@
                  25      $*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$                                                   
                  26      $*                                                                                      
                  27      BEGIN BULK                                                                              
-0                             INPUT BULK DATA ENTRY COUNT =         904
-0                       TOTAL COUNT=       852
+0                             INPUT BULK DATA ENTRY COUNT =         914
+0                       TOTAL COUNT=       858
 
 
                                         M O D E L   S U M M A R Y
@@ -203,7 +203,7 @@
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =        7 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =        8 RECORDS.)
      (TOTAL DATA WRITTEN FOR TAPE LABEL =       17 WORDS.)
-1                                                                             MARCH  23, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     4
+1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     4
                                                                                                                                     
 0                                                                                                                                   
 0                                                                                                                                   
@@ -214,8 +214,8 @@
                     101                 1                 0                 0                 0                 0                 0
      (MAXIMUM POSSIBLE FORTRAN RECORD SIZE =    65538 WORDS.)
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =       20 WORDS.)
-     (NUMBER OF FORTRAN RECORDS WRITTEN =     4529 RECORDS.)
-     (TOTAL DATA WRITTEN FOR DATA BLOCK =    21695 WORDS.)
+     (NUMBER OF FORTRAN RECORDS WRITTEN =     4579 RECORDS.)
+     (TOTAL DATA WRITTEN FOR DATA BLOCK =    21935 WORDS.)
  *** USER INFORMATION MESSAGE 4114 (OUTPBN2)
      DATA BLOCK ICASE    WRITTEN ON FORTRAN UNIT  12, TRL =
                     102                29                 0                 0                 0                 0                 0
@@ -239,6 +239,8 @@
      (TOTAL DATA WRITTEN FOR DATA BLOCK =       59 WORDS.)
  *** USER INFORMATION MESSAGE 2050 (ESCHEL)
      AUTOMPC PROCESSING COMPLETE
+ *** USER INFORMATION MESSAGE 2050 (ESCHEL)
+     AUTOMPC PROCESSING ELIMINATED        144 REDUNDANT CONSTRAINT EQUATIONS
  *** USER INFORMATION MESSAGE 4114 (OUTPBN2)
      DATA BLOCK GPL      WRITTEN ON FORTRAN UNIT  12, TRL =
                     101               276               276                 0                 0                 0                 0
@@ -260,7 +262,7 @@
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =      594 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =       29 RECORDS.)
      (TOTAL DATA WRITTEN FOR DATA BLOCK =      809 WORDS.)
-1                                                                             MARCH  23, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     5
+1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     5
                                                                                                                                     
 0                                                                                                                                   
 0                                                                                                                                   
@@ -291,9 +293,9 @@
      DATA BLOCK GEOM4    WRITTEN ON FORTRAN UNIT  12, TRL =
                     103                 0                 0                 0               512              2048                 0
      (MAXIMUM POSSIBLE FORTRAN RECORD SIZE =    65538 WORDS.)
-     (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =       35 WORDS.)
+     (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =       83 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =       29 RECORDS.)
-     (TOTAL DATA WRITTEN FOR DATA BLOCK =       99 WORDS.)
+     (TOTAL DATA WRITTEN FOR DATA BLOCK =      147 WORDS.)
  *** USER INFORMATION MESSAGE 4114 (OUTPBN2)
      DATA BLOCK GEOM1    WRITTEN ON FORTRAN UNIT  12, TRL =
                     104                 0                 0                 8                 0                 0                 0
@@ -315,7 +317,7 @@
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =      552 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =       24 RECORDS.)
      (TOTAL DATA WRITTEN FOR DATA BLOCK =     1134 WORDS.)
-1                                                                             MARCH  23, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     6
+1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     6
                                                                                                                                     
 0                                                                                                                                   
  *** USER INFORMATION MESSAGE 7310 (VECPRN)
@@ -324,18 +326,18 @@
 0                                                  OLOAD    RESULTANT       
   SUBCASE/    LOAD
   DAREA ID    TYPE       T1            T2            T3            R1            R2            R3
-0        1     FX    3.595482E+06     ----          ----          ----       1.014850E+09 -2.991901E-03                             
-               FY       ----       7.761725E-12     ----      -3.236312E-09     ----       1.242200E-10                             
-               FZ       ----          ----      -5.046583E-12  4.204355E-10 -2.901145E-09     ----                                  
+0        1     FX    7.761725E-12     ----          ----          ----       3.236312E-09  3.017324E-09                             
+               FY       ----       3.595482E+06     ----      -1.014850E+09     ----      -3.009686E-03                             
+               FZ       ----          ----       6.787016E-12  1.864748E-09 -2.083135E-10     ----                                  
                MX       ----          ----          ----       0.000000E+00     ----          ----                                  
                MY       ----          ----          ----          ----       0.000000E+00     ----                                  
                MZ       ----          ----          ----          ----          ----       0.000000E+00                             
-             TOTALS  3.595482E+06  7.761725E-12 -5.046583E-12 -2.815877E-09  1.014850E+09 -2.991901E-03                             
+             TOTALS  7.761725E-12  3.595482E+06  6.787016E-12 -1.014850E+09  3.027999E-09 -3.009683E-03                             
  ^^^ USER INFORMATION MESSAGE (XMCE1)    
  ^^^ USING ALTERNATE MULTIPOINT CONSTRAINT ELIMINATION   
  *** USER INFORMATION MESSAGE - SINGULARITIES FOUND USING EIGENVALUE METHOD
  ***       0 SINGULARITIES FOUND         0 SINGULARITIES ELIMINATED
-1                                                                             MARCH  23, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     7
+1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     7
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
  *** SYSTEM INFORMATION MESSAGE 6916 (DFMSYN)
@@ -343,8 +345,8 @@
  *** USER INFORMATION MESSAGE 5293 (SSG3A)
     FOR DATA BLOCK KLL     
     LOAD SEQ. NO.             EPSILON              EXTERNAL WORK      EPSILONS LARGER THAN 0.001 ARE FLAGGED WITH ASTERISKS
-                1         -1.3309186E-12          5.2624320E+06
-1                                                                             MARCH  23, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     8
+                1         -5.8871452E-14          4.4669129E+05
+1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     8
                                                                                                                                     
 0                                                                                                                                   
  *** USER INFORMATION MESSAGE 7310 (VECPRN)
@@ -353,41 +355,41 @@
 0                                                  SPCFORCE RESULTANT       
   SUBCASE/    LOAD
   DAREA ID    TYPE       T1            T2            T3            R1            R2            R3
-0        1     FX   -3.595482E+06     ----          ----          ----      -3.321167E-07 -9.620167E+00                             
-               FY       ----       4.635658E-07     ----      -4.282149E-20     ----       1.431915E+00                             
-               FZ       ----          ----       7.028691E-06  1.609549E+00 -9.918561E+08     ----                                  
-               MX       ----          ----          ----      -1.609086E+00     ----          ----                                  
-               MY       ----          ----          ----          ----      -2.299386E+07     ----                                  
-               MZ       ----          ----          ----          ----          ----       8.190766E+00                             
-             TOTALS -3.595482E+06  4.635658E-07  7.028691E-06  4.629344E-04 -1.014850E+09  2.513451E-03                             
+0        1     FX    1.420267E-08     ----          ----          ----       1.305291E-21 -3.228344E+08                             
+               FY       ----      -3.595482E+06     ----       3.321167E-07     ----       3.228344E+08                             
+               FZ       ----          ----      -1.338194E-07  1.010293E+09 -1.217743E+00     ----                                  
+               MX       ----          ----          ----       4.557086E+06     ----          ----                                  
+               MY       ----          ----          ----          ----       1.217793E+00     ----                                  
+               MZ       ----          ----          ----          ----          ----      -6.143789E-01                             
+             TOTALS  1.420267E-08 -3.595482E+06 -1.338194E-07  1.014850E+09  5.000271E-05  3.024340E-03                             
  *** USER INFORMATION MESSAGE 4114 (OUTPBN2)
      DATA BLOCK OQG1     WRITTEN ON FORTRAN UNIT  12, TRL =
-                    101                 0              2208                23                24                 0                 1
+                    101                 0              2208                25                24                 0                 1
      (MAXIMUM POSSIBLE FORTRAN RECORD SIZE =    65538 WORDS.)
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =     2208 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =       24 RECORDS.)
      (TOTAL DATA WRITTEN FOR DATA BLOCK =     2389 WORDS.)
  *** USER INFORMATION MESSAGE 4114 (OUTPBN2)
      DATA BLOCK BOUGV1   WRITTEN ON FORTRAN UNIT  12, TRL =
-                    101                 0              2208                23                24                 0                 1
+                    101                 0              2208                25                24                 0                 1
      (MAXIMUM POSSIBLE FORTRAN RECORD SIZE =    65538 WORDS.)
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =     2208 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =       24 RECORDS.)
      (TOTAL DATA WRITTEN FOR DATA BLOCK =     2389 WORDS.)
  *** USER INFORMATION MESSAGE 4114 (OUTPBN2)
      DATA BLOCK OES1     WRITTEN ON FORTRAN UNIT  12, TRL =
-                    101                63                 3                23                24                 0                 1
+                    101                63                 3                25                24                 0                 1
      (MAXIMUM POSSIBLE FORTRAN RECORD SIZE =    65538 WORDS.)
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =    29970 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =       24 RECORDS.)
      (TOTAL DATA WRITTEN FOR DATA BLOCK =    30151 WORDS.)
-1                                                                             MARCH  23, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     9
+1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     9
                                                                                                                                     
 0                                                                                                                                   
-1                                                                             MARCH  23, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    10
+1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    10
                                                                                                                                     
 0                                                                                                                                   
-1                                                                             MARCH  23, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    11
+1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    11
                                                                                                                                     
 0                                                                                                                                   
  *** USER INFORMATION MESSAGE 4110 (OUTPBN2)
@@ -395,7 +397,7 @@
                                  (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =      1 WORDS.)
                                        (NUMBER OF FORTRAN RECORDS WRITTEN =      1 RECORDS.)
                                        (TOTAL DATA WRITTEN FOR EOF MARKER =      1 WORDS.)
-1                                                                             MARCH  23, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    12
+1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    12
                                                                                                                                     
 0                                                                                                                                   
  * * * *  D B D I C T   P R I N T  * * * *      SUBDMAP = PRTSUM  ,  DMAP STATEMENT NO.     28

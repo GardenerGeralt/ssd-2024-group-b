@@ -5,8 +5,6 @@ import numpy as np
 # 0 is the horizontal part of the bipod
 # a to c starting from the top ie. a upper tangential, b radial & c lower tangential
 
-M = 6.6
-
 #------ CS moment of inertia ---------#
 
 Ia = Wa*ta**3/12
@@ -31,7 +29,7 @@ MOSa = round(MOS(sigma_a, sigmaY, FoS), 2)
 MOSb = round(MOS(sigma_b, sigmaY, FoS), 2)
 MOSc = round(MOS(sigma_c, sigmaY, FoS), 2)
 
-print("Margin of safeties of each plate (top to bottom): "+str(MOSa)+", "+str(MOSb)+", "+str(MOSc))
+print("Margin of safeties of each plate in bending (top to bottom): "+str(MOSa)+", "+str(MOSb)+", "+str(MOSc))
 
 
 #------- Buckling load ---------------#
@@ -47,7 +45,6 @@ MOSa = round(MOS(Fcmp, Fcrit_a, FoS), 2)
 MOSb = round(MOS(Fcmp, Fcrit_b, FoS), 2)
 MOSc = round(MOS(Fcmp, Fcrit_c, FoS), 2)
 
-print("Margin of safeties of each plate (top to bottom): "+str(MOSa)+", "+str(MOSb)+", "+str(MOSc))
-
+print("Margin of safeties of each plate in buckling (top to bottom): "+str(MOSa)+", "+str(MOSb)+", "+str(MOSc))
 
 

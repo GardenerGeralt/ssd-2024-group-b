@@ -6,35 +6,35 @@ import numpy as np
 #------------------ Dimensions ----------------------#
 
 # Upper Tangential flexure
-la = 40*1e-3
+la = 67.6*1e-3
 Wa = 30*1e-3
-ta = 2*1e-3
+ta = 3*1e-3
 
 # Radial flexure
-lb = 40*1e-3
+lb = 67.6*1e-3
 Wb = 30*1e-3
-tb = 2*1e-3
+tb = 3*1e-3
 
 # Lower Tangential flexure
-lc = 40*1e-3
+lc = 67.6*1e-3
 Wc = 30*1e-3
-tc = 2*1e-3
+tc = 3*1e-3
 
 # Assem
 psi = 64*np.pi/180
 d = 40*1e-3            # value in FEM
 #d = 20*1e-3             # value in paper
-D = 2*134.995*1e-3      # Diameter of dish
+D = 2*135*1e-3      # Diameter of dish
 #D = 0.8                 # Diameter of dish (paper)
 
 #--------------- Material Properties ----------------#
 
-E = 69*1e9              # Aluminium - youngs modulus
-G = 26*1e9              # Aluminium - shear modulus
+E = 121*1e9              # Titanium alloy - youngs modulus
+nu = 0.34
 #M = 46                  # Mass of telescope - paper
 M = 5.1
 FoS = 1.5
-sigmaY = 240*1e6
+sigmaY = 805*1e6
 
 #-------------------- QSL ---------------------------#
 

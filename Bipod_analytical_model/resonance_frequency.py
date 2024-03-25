@@ -14,6 +14,7 @@ if la != lb:
 L = la
 W = Wa
 t = ta
+G = E/(2*(1+nu))
 
 #------------- Relevant compliances in X, Y & Z -----------------#
 

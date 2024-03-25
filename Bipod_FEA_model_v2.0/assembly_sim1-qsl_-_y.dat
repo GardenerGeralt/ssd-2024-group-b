@@ -3,15 +3,15 @@ $*
 $*                    Simcenter v1911.0.0.2501 Translator
 $*                    for Simcenter Nastran version 2020.1
 $*
-$*             FEM FILE: D:\Temporary\Delft\Post_admin\Class\Spacecraft_Struct_Design\CAD\1D_Assembly_V2.0\Assembly_fem1.fem
-$*             SIM FILE: D:\Temporary\Delft\Post_admin\Class\Spacecraft_Struct_Design\CAD\1D_Assembly_V2.0\Assembly_sim1.sim
+$*             FEM FILE: D:\Temporary\Delft\Post_admin\Class\Spacecraft_Struct_Design\Code\Bipod_FEA_model_v2.0\Assembly_fem1.fem
+$*             SIM FILE: D:\Temporary\Delft\Post_admin\Class\Spacecraft_Struct_Design\Code\Bipod_FEA_model_v2.0\Assembly_sim1.sim
 $*        ANALYSIS TYPE: Structural
 $*        SOLUTION NAME: QSL - Y
 $*        SOLUTION TYPE: SOL 101 Linear Statics - Global Constraints
 $*
 $*    SOLVER INPUT FILE: assembly_sim1-qsl_-_y.dat
-$*        CREATION DATE: 23-Mar-2024
-$*        CREATION TIME: 12:47:53
+$*        CREATION DATE: 25-Mar-2024
+$*        CREATION TIME: 16:59:30
 $*             HOSTNAME: LAPTOP-4ODISQVG
 $*      NASTRAN LICENSE: Desktop Bundle
 $*
@@ -933,14 +933,24 @@ CONM2        272     276       04.500000
 $*  Mesh Collector: M2_strts
 $*  Mesh: connection_mesh(11)
 RBE2         829     758  123456     275
-$*  Mesh Collector: Strts_Bpds
-$*  Mesh: connection_mesh(12)
-RBE2         830     798  123456     626
-RBE2         831     818  123456     675
-RBE2         832     778  123456     724
 $*  Mesh Collector: M1_Bpds
-$*  Mesh: connection_mesh(13)
-RBE2         833     276  123456     626     675     724
+$*  Mesh: connection_mesh(15)
+RBE2         837     276  123456     622     623     624     625     626+
++            629     627     628     630     720     721     722     723+
++            724     725     726     727     728     671     672     673+
++            674     675     676     677     678     679
+$*  Mesh Collector: R_Strt_Bpd
+$*  Mesh: connection_mesh(18)
+RBE2         838     818  123456     676     677     678     679     671+
++            672     673     674     675
+$*  Mesh Collector: C_Strt_Bpd
+$*  Mesh: connection_mesh(19)
+RBE2         839     798  123456     627     628     629     630     626+
++            622     623     624     625
+$*  Mesh Collector: L_Strt_Bpd
+$*  Mesh: connection_mesh(20)
+RBE2         840     778  123456     720     721     722     723     725+
++            726     727     728     724
 $*
 $* PROPERTY CARDS
 $*
@@ -974,5 +984,5 @@ SPC            1     708  123456  0.0000
 SPC            1     747  123456  0.0000
 SPC            1     757  123456  0.0000
 $*  Load: Gravity(1)
-GRAV           2       03.9227+51.000000  0.0000  0.0000
-ENDDATA a7bcb812
+GRAV           2       03.9227+5  0.00001.000000  0.0000
+ENDDATA 00353b30
