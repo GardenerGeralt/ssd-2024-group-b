@@ -1,0 +1,21 @@
+1 (t = 2)
+-----------
+Mode: 165Hz
+QSL VonMises: 409.01MPa, 386.49MPa, 110.36MPa
+QSL MoS: 0.312, 0.389, 3.879
+Random RMS VonMises: 261.23MPa, 232.46MPa, 8.90MPa
+Random MoS: -0.315, -0.23, 19.1
+Sine Max VonMises: 338.07MPa, 316.22MPa, 83.04MPa
+Sine MoS: 0.587, 0.697, 5.463
+Mass: 0.355
+
+2 (t = 2.5)
+-----------
+Mode: 172Hz
+QSL VonMises: 337.66MPa, 323.14MPa, 70.68MPa
+QSL MoS: 0.589, 0.661, 6.593
+Random RMS VonMises: 153.71MPa, 138.05MPa, 4.93MPa
+Random MoS: 0.164, 0.296, 35.286
+Sine Max VonMises: 216.53MPa, 202.92MPa, 53.16MPa
+Sine MoS: 1.478, 1.645, 9.095
+Mass: 0.444kg

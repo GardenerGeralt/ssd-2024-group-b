@@ -1,0 +1,10 @@
+1 (t = 2, W = 20, l = 26.95, psi = 60)
+-----------
+Mode: 848Hz
+QSL VonMises: 34.21MPa, 39.36MPa, 9.08MPa
+QSL MoS: 14.687, 12.635, 58.104
+Random RMS VonMises: 34.03MPa, 39.07MPa, 0.77MPa
+Random MoS: 4.257, 3.579, 231.323
+Sine Max VonMises: 25.95MPa, 29.87MPa, 1.81MPa
+Sine MoS: 19.681, 16.967, 295.501
+Mass: 0.355

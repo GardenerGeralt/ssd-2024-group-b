@@ -88,7 +88,7 @@
  for global, or multi-user control, and in a local file for local control.
  Individual jobs can be controlled by setting news to yes or no on the command
  line.
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     1
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     1
                                                                                                                                     
 0        N A S T R A N    F I L E    A N D    S Y S T E M    P A R A M E T E R    E C H O                                           
 0                                                                                                                                   
@@ -111,8 +111,8 @@
      $*        SOLUTION TYPE: SOL 103 REAL EIGENVALUES                               
      $*                                                                              
      $*    SOLVER INPUT FILE: ASSEMBLY_SIM1-MODAL.DAT                                
-     $*        CREATION DATE: 25-MAR-2024                                            
-     $*        CREATION TIME: 16:44:13                                               
+     $*        CREATION DATE: 27-MAR-2024                                            
+     $*        CREATION TIME: 09:40:06                                               
      $*             HOSTNAME: LAPTOP-4ODISQVG                                        
      $*      NASTRAN LICENSE: DESKTOP BUNDLE                                         
      $*                                                                              
@@ -143,7 +143,7 @@
      $*                                                                              
      $*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$                                           
      $*                                                                              
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     2
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     2
                                                                                                                                     
 0        N A S T R A N    E X E C U T I V E    C O N T R O L    E C H O                                                             
 0                                                                                                                                   
@@ -152,7 +152,7 @@
      ID,NASTRAN,ASSEMBLY_SIM1-MODAL                                                          
      SOL 103                                                                                 
      CEND                                                                                    
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     3
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     3
                                                                                                                                     
 0                                                                                                                                   
 0                                        C A S E    C O N T R O L    E C H O                                                        
@@ -203,7 +203,7 @@
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =        7 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =        8 RECORDS.)
      (TOTAL DATA WRITTEN FOR TAPE LABEL =       17 WORDS.)
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     4
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     4
                                                                                                                                     
 0                                                                                                                                   
 0                                                                                                                                   
@@ -262,7 +262,7 @@
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =      594 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =       29 RECORDS.)
      (TOTAL DATA WRITTEN FOR DATA BLOCK =      809 WORDS.)
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     5
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     5
                                                                                                                                     
 0                                                                                                                                   
 0                                                                                                                                   
@@ -317,7 +317,7 @@
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =      552 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =       24 RECORDS.)
      (TOTAL DATA WRITTEN FOR DATA BLOCK =     1134 WORDS.)
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     6
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     6
                                                                                                                                     
 0                                                                                                                                   
  *** USER INFORMATION MESSAGE 7310 (VECPRN)
@@ -341,17 +341,17 @@
      DECOMP ORDERING METHOD CHOSEN: DEFAULT, ORDERING METHOD USED: MMD
  *** USER INFORMATION MESSAGE 5010 (LNCILS)
      STURM SEQUENCE DATA FOR EIGENVALUE EXTRACTION.
-     TRIAL EIGENVALUE =  1.487474E+06, CYCLES =  1.941086E+02 NUMBER OF EIGENVALUES BELOW THIS VALUE =     2
+     TRIAL EIGENVALUE =  1.652326E+06, CYCLES =  2.045823E+02 NUMBER OF EIGENVALUES BELOW THIS VALUE =     2
  *** USER INFORMATION MESSAGE 5010 (LNCILS)
      STURM SEQUENCE DATA FOR EIGENVALUE EXTRACTION.
-     TRIAL EIGENVALUE =  3.655817E+06, CYCLES =  3.043073E+02 NUMBER OF EIGENVALUES BELOW THIS VALUE =     6
+     TRIAL EIGENVALUE =  4.170993E+06, CYCLES =  3.250423E+02 NUMBER OF EIGENVALUES BELOW THIS VALUE =     6
 
  TABLE OF SHIFTS:  (LNNRIGL)
  SHIFT #        SHIFT VALUE         FREQUENCY, CYCLES     # EIGENVALUES BELOW    # NEW EIGENVALUES FOUND
-     1.        1.4874739E+06          1.9410862E+02                 2                       10
-     2.        3.6558171E+06          3.0430729E+02                 6                        0
+     1.        1.6523260E+06          2.0458227E+02                 2                        7
+     2.        4.1709934E+06          3.2504230E+02                 6                        0
 
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     7
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     7
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
 0
@@ -369,23 +369,23 @@
 
                                      NUMBER OF SOLVES REQUIRED ............    9
 
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     8
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     8
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
  
                                               R E A L   E I G E N V A L U E S
    MODE    EXTRACTION      EIGENVALUE            RADIANS             CYCLES            GENERALIZED         GENERALIZED
     NO.       ORDER                                                                       MASS              STIFFNESS
-        1         1        1.078333E+06        1.038428E+03        1.652710E+02        1.000000E+00        1.078333E+06
-        2         2        1.078333E+06        1.038428E+03        1.652710E+02        1.000000E+00        1.078333E+06
-        3         3        2.144866E+06        1.464536E+03        2.330882E+02        1.000000E+00        2.144866E+06
-        4         4        3.114340E+06        1.764749E+03        2.808686E+02        1.000000E+00        3.114340E+06
-        5         5        3.125433E+06        1.767889E+03        2.813683E+02        1.000000E+00        3.125433E+06
-        6         6        3.125433E+06        1.767889E+03        2.813683E+02        1.000000E+00        3.125433E+06
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     9
+        1         1        1.174331E+06        1.083665E+03        1.724707E+02        1.000000E+00        1.174331E+06
+        2         2        1.174331E+06        1.083665E+03        1.724707E+02        1.000000E+00        1.174331E+06
+        3         3        2.160816E+06        1.469972E+03        2.339532E+02        1.000000E+00        2.160816E+06
+        4         4        3.124943E+06        1.767751E+03        2.813463E+02        1.000000E+00        3.124943E+06
+        5         5        3.134489E+06        1.770449E+03        2.817757E+02        1.000000E+00        3.134489E+06
+        6         6        3.134489E+06        1.770449E+03        2.817757E+02        1.000000E+00        3.134489E+06
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE     9
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    10
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    10
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
 
@@ -398,32 +398,32 @@
 
 
                         T1                T2                T3                R1                R2                R3
-                   5.976797E-01      5.976797E-01      6.004644E-02      7.315966E-01      7.315966E-01      3.839318E-01
+                   5.211731E-01      5.211731E-01      5.236459E-02      6.593633E-01      6.593633E-01      3.493136E-01
 
 
 
 
                                                         EFFECTIVE MASS MATRIX   
                        ***                                                                                  ***
-                       *   5.475012E+00  9.341013E-09  7.356208E-10  6.391775E-08  1.867893E+03 -1.217430E-06 *
-                       *   9.341013E-09  5.475012E+00  1.198888E-09 -1.867893E+03  4.529778E-06 -7.360242E-08 *
-                       *   7.356208E-10  1.198888E-09  5.500520E-01  1.541614E-07 -9.006066E-09 -1.122530E-07 *
-                       *   6.391775E-08 -1.867893E+03  1.541614E-07  6.374113E+05 -4.313586E-04  1.126541E-05 *
-                       *   1.867893E+03  4.529778E-06 -9.006066E-09 -4.313586E-04  6.374113E+05 -3.069890E-04 *
-                       *  -1.217430E-06 -7.360242E-08 -1.122530E-07  1.126541E-05 -3.069890E-04  1.189105E+04 *
+                       *   4.819774E+00  6.990623E-09 -2.906518E-10 -3.824176E-07  1.665536E+03 -7.646727E-07 *
+                       *   6.990623E-09  4.819774E+00 -5.842924E-10 -1.665536E+03  3.134370E-06 -1.920351E-07 *
+                       *  -2.906518E-10 -5.842924E-10  4.842643E-01  3.733434E-07 -1.345375E-07 -1.414618E-08 *
+                       *  -3.824176E-07 -1.665536E+03  3.733434E-07  5.758491E+05 -3.802197E-04  6.148420E-05 *
+                       *   1.665536E+03  3.134370E-06 -1.345375E-07 -3.802197E-04  5.758491E+05 -2.011180E-04 *
+                       *  -7.646727E-07 -1.920351E-07 -1.414618E-08  6.148420E-05 -2.011180E-04  1.155090E+04 *
                        ***                                                                                  ***
 
                                                      A-SET RIGID BODY MASS MATRIX
                        ***                                                                                  ***
-                       *   9.160444E+00  2.000353E-17 -1.288824E-17 -7.186164E-15  2.587121E+03 -7.387200E-09 *
-                       *   2.000353E-17  9.160444E+00  1.739256E-17 -2.587121E+03  7.740570E-15 -7.498578E-09 *
-                       *  -1.288824E-17  1.739256E-17  9.160444E+00  7.387172E-09  7.498571E-09 -5.544062E-16 *
-                       *  -7.186164E-15 -2.587121E+03  7.387129E-09  8.712607E+05 -3.052041E-07  1.810338E-06 *
-                       *   2.587121E+03  7.740570E-15  7.498592E-09 -3.052019E-07  8.712607E+05 -1.169145E-06 *
-                       *  -7.387158E-09 -7.498613E-09 -5.544062E-16  1.810333E-06 -1.169112E-06  3.097178E+04 *
+                       *   9.247934E+00  1.967827E-17 -1.311385E-17 -6.989407E-15  2.595447E+03 -7.583708E-09 *
+                       *   1.967827E-17  9.247934E+00  1.687251E-17 -2.595447E+03  7.685523E-15 -7.257562E-09 *
+                       *  -1.311385E-17  1.687251E-17  9.247934E+00  7.583694E-09  7.257562E-09 -6.961157E-16 *
+                       *  -6.989407E-15 -2.595447E+03  7.583708E-09  8.733412E+05 -2.732600E-07  1.806651E-06 *
+                       *   2.595447E+03  7.685523E-15  7.257547E-09 -2.732622E-07  8.733412E+05 -1.161425E-06 *
+                       *  -7.583736E-09 -7.257576E-09 -6.961157E-16  1.806664E-06 -1.161428E-06  3.306742E+04 *
                        ***                                                                                  ***
 
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    11
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    11
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
  *** USER INFORMATION MESSAGE 7310 (VECPRN)
@@ -432,51 +432,51 @@
 0                                                  SPCFORCE RESULTANT       
   SUBCASE/    LOAD
   DAREA ID    TYPE       T1            T2            T3            R1            R2            R3
-0        1     FX   -2.312063E+06     ----          ----          ----      -2.135665E-07 -1.053173E+08                             
-               FY       ----      -9.774159E+05     ----       9.028445E-08     ----       1.053173E+08                             
-               FZ       ----          ----       5.442423E-04  3.323298E+08 -7.861213E+08     ----                                  
-               MX       ----          ----          ----       6.150878E+05     ----          ----                                  
-               MY       ----          ----          ----          ----      -1.454980E+06     ----                                  
-               MZ       ----          ----          ----          ----          ----       3.748789E-01                             
-             TOTALS -2.312063E+06 -9.774159E+05  5.442423E-04  3.329449E+08 -7.875763E+08  3.547594E-01                             
-0        2     FX   -9.774159E+05     ----          ----          ----      -9.028445E-08  2.491264E+08                             
-               FY       ----       2.312063E+06     ----      -2.135665E-07     ----      -2.491264E+08                             
-               FZ       ----          ----      -2.978259E-04 -7.861213E+08 -3.323298E+08     ----                                  
-               MX       ----          ----          ----      -1.454981E+06     ----          ----                                  
-               MY       ----          ----          ----          ----      -6.150878E+05     ----                                  
-               MZ       ----          ----          ----          ----          ----       5.016839E-01                             
-             TOTALS -9.774159E+05  2.312063E+06 -2.978259E-04 -7.875763E+08 -3.329449E+08  1.277688E-01                             
-0        3     FX    7.214964E-03     ----          ----          ----       6.664502E-16 -1.171079E+08                             
-               FY       ----       8.151963E-04     ----      -7.530015E-17     ----      -1.171079E+08                             
-               FZ       ----          ----      -1.724906E-04 -2.480672E-01  4.425532E-01     ----                                  
-               MX       ----          ----          ----       2.297321E-01     ----          ----                                  
-               MY       ----          ----          ----          ----      -1.417409E-01     ----                                  
-               MZ       ----          ----          ----          ----          ----       3.265605E+05                             
-             TOTALS  7.214964E-03  8.151963E-04 -1.724906E-04 -1.833514E-02  3.008123E-01 -2.338893E+08                             
-0        4     FX    2.682131E-02     ----          ----          ----       2.477499E-15 -8.484426E-01                             
-               FY       ----       2.116836E-03     ----      -1.955333E-16     ----       1.730254E-01                             
-               FZ       ----          ----       2.309765E+06  1.913885E+00  9.134446E+00     ----                                  
-               MX       ----          ----          ----       1.042880E-01     ----          ----                                  
-               MY       ----          ----          ----          ----      -4.529974E-02     ----                                  
-               MZ       ----          ----          ----          ----          ----       1.672352E-01                             
-             TOTALS  2.682131E-02  2.116836E-03  2.309765E+06  2.018173E+00  9.089146E+00 -5.081819E-01                             
-0        5     FX   -7.374083E+05     ----          ----          ----      -6.811481E-08 -9.195390E+06                             
-               FY       ----      -7.400509E+04     ----       6.835891E-09     ----       9.195390E+06                             
-               FZ       ----          ----       6.092076E-02  2.894224E+07 -2.883889E+08     ----                                  
-               MX       ----          ----          ----       7.934904E+04     ----          ----                                  
-               MY       ----          ----          ----          ----      -7.906520E+05     ----                                  
-               MZ       ----          ----          ----          ----          ----       2.100218E-01                             
-             TOTALS -7.374083E+05 -7.400509E+04  6.092076E-02  2.902159E+07 -2.891796E+08  4.785842E-01                             
-0        6     FX    7.400508E+04     ----          ----          ----       6.835891E-09 -9.162556E+07                             
-               FY       ----      -7.374082E+05     ----       6.811481E-08     ----       9.162556E+07                             
-               FZ       ----          ----      -2.921238E-02  2.883889E+08  2.894224E+07     ----                                  
-               MX       ----          ----          ----       7.906526E+05     ----          ----                                  
-               MY       ----          ----          ----          ----       7.934874E+04     ----                                  
-               MZ       ----          ----          ----          ----          ----      -2.371327E-01                             
-             TOTALS  7.400508E+04 -7.374082E+05 -2.921238E-02  2.891796E+08  2.902159E+07 -2.079464E-01                             
+0        1     FX   -2.007195E+06     ----          ----          ----      -1.854058E-07 -1.745020E+08                             
+               FY       ----      -1.604139E+06     ----       1.481752E-07     ----       1.745020E+08                             
+               FZ       ----          ----       7.008445E-04  5.520699E+08 -6.907831E+08     ----                                  
+               MX       ----          ----          ----       1.218952E+06     ----          ----                                  
+               MY       ----          ----          ----          ----      -1.525225E+06     ----                                  
+               MZ       ----          ----          ----          ----          ----       2.757994E-01                             
+             TOTALS -2.007195E+06 -1.604139E+06  7.008445E-04  5.532889E+08 -6.923083E+08  2.951092E-01                             
+0        2     FX    1.604139E+06     ----          ----          ----       1.481752E-07 -2.183474E+08                             
+               FY       ----      -2.007195E+06     ----       1.854058E-07     ----       2.183474E+08                             
+               FZ       ----          ----       1.886645E-04  6.907831E+08  5.520699E+08     ----                                  
+               MX       ----          ----          ----       1.525226E+06     ----          ----                                  
+               MY       ----          ----          ----          ----       1.218952E+06     ----                                  
+               MZ       ----          ----          ----          ----          ----      -6.332865E-01                             
+             TOTALS  1.604139E+06 -2.007195E+06  1.886645E-04  6.923083E+08  5.532889E+08 -1.117089E-01                             
+0        3     FX    4.024970E-03     ----          ----          ----       3.717887E-16 -1.163327E+08                             
+               FY       ----       2.429735E-04     ----      -2.244359E-17     ----      -1.163327E+08                             
+               FZ       ----          ----      -4.307553E-04 -6.626914E-02  4.397363E-01     ----                                  
+               MX       ----          ----          ----       7.649136E-02     ----          ----                                  
+               MY       ----          ----          ----          ----      -3.204005E-01     ----                                  
+               MZ       ----          ----          ----          ----          ----       4.314162E+05                             
+             TOTALS  4.024970E-03  2.429735E-04 -4.307553E-04  1.022221E-02  1.193358E-01 -2.322340E+08                             
+0        4     FX   -1.726021E-02     ----          ----          ----      -1.594335E-15  1.395477E+00                             
+               FY       ----       7.736855E-03     ----      -7.146576E-16     ----      -1.206515E+00                             
+               FZ       ----          ----      -2.174620E+06 -4.317733E+00 -7.297029E+00     ----                                  
+               MX       ----          ----          ----      -9.021966E-02     ----          ----                                  
+               MY       ----          ----          ----          ----       4.723145E-02     ----                                  
+               MZ       ----          ----          ----          ----          ----      -2.917186E-02                             
+             TOTALS -1.726021E-02  7.736855E-03 -2.174620E+06 -4.407953E+00 -7.249797E+00  1.597903E-01                             
+0        5     FX    5.536755E+05     ----          ----          ----       5.114331E-08  1.472318E+07                             
+               FY       ----       1.066625E+05     ----      -9.852477E-09     ----      -1.472318E+07                             
+               FZ       ----          ----      -4.974851E-02 -4.702900E+07  2.441233E+08     ----                                  
+               MX       ----          ----          ----      -8.496066E+04     ----          ----                                  
+               MY       ----          ----          ----          ----       4.410223E+05     ----                                  
+               MZ       ----          ----          ----          ----          ----      -1.263400E-01                             
+             TOTALS  5.536755E+05  1.066625E+05 -4.974851E-02 -4.711396E+07  2.445643E+08 -8.339211E-02                             
+0        6     FX   -1.066625E+05     ----          ----          ----      -9.852476E-09  7.642668E+07                             
+               FY       ----       5.536755E+05     ----      -5.114331E-08     ----      -7.642668E+07                             
+               FZ       ----          ----       4.909639E-02 -2.441233E+08 -4.702900E+07     ----                                  
+               MX       ----          ----          ----      -4.410226E+05     ----          ----                                  
+               MY       ----          ----          ----          ----      -8.496060E+04     ----                                  
+               MZ       ----          ----          ----          ----          ----       1.175784E-01                             
+             TOTALS -1.066625E+05  5.536755E+05  4.909639E-02 -2.445643E+08 -4.711396E+07  3.004092E-02                             
  *** USER INFORMATION MESSAGE 4114 (OUTPBN2)
      DATA BLOCK OQG1     WRITTEN ON FORTRAN UNIT  12, TRL =
-                    101                 0             13248                25                24                 0                 1
+                    101                 0             13248                27                24                 0                 1
      (MAXIMUM POSSIBLE FORTRAN RECORD SIZE =    65538 WORDS.)
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =     2208 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =       74 RECORDS.)
@@ -490,25 +490,25 @@
      (TOTAL DATA WRITTEN FOR DATA BLOCK =      218 WORDS.)
  *** USER INFORMATION MESSAGE 4114 (OUTPBN2)
      DATA BLOCK BOPHIG   WRITTEN ON FORTRAN UNIT  12, TRL =
-                    101                 0             13248                25                24                 0                 1
+                    101                 0             13248                27                24                 0                 1
      (MAXIMUM POSSIBLE FORTRAN RECORD SIZE =    65538 WORDS.)
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =     2208 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =       74 RECORDS.)
      (TOTAL DATA WRITTEN FOR DATA BLOCK =    14199 WORDS.)
  *** USER INFORMATION MESSAGE 4114 (OUTPBN2)
      DATA BLOCK OES1     WRITTEN ON FORTRAN UNIT  12, TRL =
-                    101                63                 3                25                24                 0                 1
+                    101                63                 3                27                24                 0                 1
      (MAXIMUM POSSIBLE FORTRAN RECORD SIZE =    65538 WORDS.)
      (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =    29970 WORDS.)
      (NUMBER OF FORTRAN RECORDS WRITTEN =       74 RECORDS.)
      (TOTAL DATA WRITTEN FOR DATA BLOCK =   180771 WORDS.)
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    12
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    12
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    13
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    13
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    14
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    14
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
  *** USER INFORMATION MESSAGE 4110 (OUTPBN2)
@@ -516,7 +516,7 @@
                                  (MAXIMUM SIZE OF FORTRAN RECORDS WRITTEN =      1 WORDS.)
                                        (NUMBER OF FORTRAN RECORDS WRITTEN =      1 RECORDS.)
                                        (TOTAL DATA WRITTEN FOR EOF MARKER =      1 WORDS.)
-1                                                                             MARCH  25, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    15
+1                                                                             MARCH  27, 2024  SIMCENTER NASTRAN  2/ 3/20   PAGE    15
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
  * * * *  D B D I C T   P R I N T  * * * *      SUBDMAP = PRTSUM  ,  DMAP STATEMENT NO.     28

@@ -10,8 +10,8 @@ $*        SOLUTION NAME: Modal
 $*        SOLUTION TYPE: SOL 103 Real Eigenvalues
 $*
 $*    SOLVER INPUT FILE: assembly_sim1-modal.dat
-$*        CREATION DATE: 25-Mar-2024
-$*        CREATION TIME: 16:44:13
+$*        CREATION DATE: 27-Mar-2024
+$*        CREATION TIME: 09:40:06
 $*             HOSTNAME: LAPTOP-4ODISQVG
 $*      NASTRAN LICENSE: Desktop Bundle
 $*
@@ -962,11 +962,11 @@ $*
 $*  Property: Tangential
 $*  Section: Tangential
 PBEAML         1       3 MSCBML0     BAR                                +
-+       2.000000 30.0000  0.0000     YES1.0000002.000000 30.0000  0.0000
++       2.500000 30.0000  0.0000     YES1.0000002.500000 30.0000  0.0000
 $*  Property: Radial
 $*  Section: Radial
 PBEAML         2       3 MSCBML0     BAR                                +
-+        30.00002.000000  0.0000     YES1.000000 30.00002.000000  0.0000
++        30.00002.500000  0.0000     YES1.000000 30.00002.500000  0.0000
 $*  Property: Circular
 $*  Section: Circular
 PBEAML         3       2 MSCBML0     ROD                                +
@@ -988,4 +988,4 @@ SPC            1     698  123456  0.0000
 SPC            1     708  123456  0.0000
 SPC            1     747  123456  0.0000
 SPC            1     757  123456  0.0000
-ENDDATA ec847038
+ENDDATA 6664a061

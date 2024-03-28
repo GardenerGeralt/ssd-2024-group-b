@@ -1,0 +1,69 @@
+
+*** 13:54:21 *** 
+Starting Nastran Exporter
+
+*** 13:54:21 *** 
+Writing file 
+D:\Temporary\Delft\Post_admin\Class\Spacecraft_Struct_Design\Code\Mini_Bipod_FEA_model\assembly_sim1-random_-_x.dat
+ 
+*** 13:54:21 *** 
+Writing SIMCENTER NASTRAN 2020.1 compatible deck
+
+*** 13:54:21 *** 
+Writing Nastran System section
+
+*** 13:54:21 *** 
+Writing File Management section
+
+*** 13:54:21 *** 
+Writing Executive Control section
+
+*** 13:54:21 *** 
+Writing Case Control section
+
+*** 13:54:21 *** 
+Writing Bulk Data section
+
+*** 13:54:21 *** 
+Writing Nodes
+
+*** 13:54:21 *** 
+Writing Elements
+
+*** 13:54:21 *** 
+Writing Physical Properties
+
+*** 13:54:21 *** 
+Writing Materials
+
+*** 13:54:23 *** 
+Writing Degree-of-Freedom Sets
+
+*** 13:54:23 *** 
+Writing Loads and Constraints
+
+*** 13:54:23 *** 
+Writing Coordinate Systems
+
+*** 13:54:23 *** 
+Summary of Bulk Data cards written
+
++----------+----------+
+|   NAME   |  NUMBER  |
++----------+----------+
+| CBEAM    | 420      |
+| CONM2    | 1        |
+| EIGRL    | 1        |
+| GRID     | 424      |
+| MAT1     | 1        |
+| PARAM    | 10       |
+| PBEAML   | 2        |
+| RBE2     | 1        |
+| SPC      | 12       |
+| SPCADD   | 1        |
+| USET     | 6        |
++----------+----------+
+
+*** 13:54:23 *** 
+Nastran Deck Successfully Written
+

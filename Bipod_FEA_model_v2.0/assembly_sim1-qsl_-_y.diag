@@ -1,51 +1,51 @@
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Starting Nastran Exporter
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing file 
 D:\Temporary\Delft\Post_admin\Class\Spacecraft_Struct_Design\Code\Bipod_FEA_model_v2.0\assembly_sim1-qsl_-_y.dat
  
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing SIMCENTER NASTRAN 2020.1 compatible deck
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing Nastran System section
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing File Management section
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing Executive Control section
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing Case Control section
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing Bulk Data section
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing Nodes
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing Elements
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing Physical Properties
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing Materials
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing Degree-of-Freedom Sets
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing Loads and Constraints
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Writing Coordinate Systems
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Summary of Bulk Data cards written
 
 +----------+----------+
@@ -53,8 +53,9 @@ Summary of Bulk Data cards written
 +----------+----------+
 | CBEAM    | 270      |
 | CONM2    | 2        |
-| GRAV     | 1        |
+| GRAV     | 2        |
 | GRID     | 276      |
+| LOAD     | 1        |
 | MAT1     | 2        |
 | PARAM    | 7        |
 | PBEAML   | 3        |
@@ -62,6 +63,6 @@ Summary of Bulk Data cards written
 | SPC      | 6        |
 +----------+----------+
 
-*** 16:59:30 *** 
+*** 09:58:35 *** 
 Nastran Deck Successfully Written
 
